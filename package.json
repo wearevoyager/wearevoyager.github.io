@@ -16,6 +16,8 @@
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
+    "@headlessui/react": "^1.4.0",
+    "@heroicons/react": "^1.0.4",
     "@mdx-js/mdx": "^1.6.22",
     "@mdx-js/react": "^1.6.22",
     "@tailwindcss/typography": "^0.4.1",
