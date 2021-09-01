@@ -122,9 +122,16 @@ const IndexPage = () => {
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                 Booking travel should be a simple, rewarding experience; with Voyager's API platform we enable you and your customers to book travel anywhere at any time.
               </p>
-              <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Booking travel should be a simple, rewarding experience; with Voyager's API platform we enable you and your customers to book travel anywhere at any time.
-              </p>
+              <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
+                <div className="rounded-md shadow">
+                  <a
+                    href="#"
+                    className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-lg md:px-10"
+                  >
+                    Contact us
+                  </a>
+                </div>
+              </div>
             </div>
           </main>
         </div>
@@ -135,7 +142,7 @@ const IndexPage = () => {
           alt=""
           placeholder="blurred"
           layout="fixed"
-          width={960}
+          width={1024}
           height={540}
         />
       </div>
