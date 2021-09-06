@@ -3,19 +3,15 @@ import { CheckIcon } from '@heroicons/react/outline'
 
 const features = [
   {
-    name: 'Invite team members',
+    name: 'Powerful APIs',
     description: 'You can manage phone, email and chat conversations all from a single mailbox.',
   },
-  { name: 'List view', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
+  { name: 'Integrate with your existing platform', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
   {
-    name: 'Keyboard shortcuts',
+    name: 'Complex itineries',
     description: 'You can manage phone, email and chat conversations all from a single mailbox.',
   },
-  { name: 'Calendars', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
-  { name: 'Notifications', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-  { name: 'Boards', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-  { name: 'Reporting', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-  { name: 'Mobile app', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
+  { name: 'Sandbox mode', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
 ]
 
 const Serve = () => {
@@ -24,7 +20,7 @@ const Serve = () => {
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl font-extrabold text-gray-900">The self-serve platform</h2>
         <p className="mt-4 text-lg text-gray-500">
-          Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
+          Work with our APIs directly using your existing IATA credentials.
         </p>
       </div>
       <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">

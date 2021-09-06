@@ -3,19 +3,35 @@ import { CheckIcon } from '@heroicons/react/outline'
 
 const features = [
   {
-    name: 'Invite team members',
-    description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+    name: 'Intuitive booking platform',
+    description: 'The Voyager platform enables the full booking experience.',
   },
-  { name: 'List view', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
+  { name: 'Powerful APIs', 
+    description: 'Our APIs enable a direct connection to global tavel services with enhanced product offerings.' },
   {
-    name: 'Keyboard shortcuts',
-    description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+    name: 'Easy-to-use admin panel',
+    description: 'Invite, support, and manage your team members.',
   },
-  { name: 'Calendars', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
-  { name: 'Notifications', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-  { name: 'Boards', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-  { name: 'Reporting', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
-  { name: 'Mobile app', description: 'Find what you need with advanced filters, bulk actions, and quick views.' },
+  { 
+    name: 'Real-time ticketing', 
+    description: 'You can manage phone, email and chat conversations all from a single mailbox.' 
+  },
+  { 
+    name: 'Accredited travel booking', 
+    description: 'Find what you need with advanced filters, bulk actions, and quick views.' 
+  },
+  { 
+    name: 'All ancilliaries', 
+    description: 'Find what you need with advanced filters, bulk actions, and quick views.' 
+  },
+  { 
+    name: 'Complex itineries', 
+    description: 'Find what you need with advanced filters, bulk actions, and quick views.' 
+  },
+  { 
+    name: 'Advanced analytics', 
+    description: 'Find what you need with advanced filters, bulk actions, and quick views.' 
+  },
 ]
 
 const Hosted = () => {
@@ -24,7 +40,7 @@ const Hosted = () => {
       <div className="max-w-3xl mx-auto text-center">
         <h2 className="text-3xl font-extrabold text-gray-900">The hosted platform</h2>
         <p className="mt-4 text-lg text-gray-500">
-          Ac euismod vel sit maecenas id pellentesque eu sed consectetur. Malesuada adipiscing sagittis vel nulla nec.
+          Let Voyager handle the complexity of travel booking; while you focus on the customer.
         </p>
       </div>
       <dl className="mt-12 space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 lg:grid-cols-4 lg:gap-x-8">
