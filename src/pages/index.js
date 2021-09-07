@@ -3,8 +3,20 @@ import Hero from "../components/hero"
 import Hosted from "../components/feature-hosted"
 import Serve from "../components/feature-self"
 import Footer from "../components/footer"
+import { useEffect } from 'react';
+
+
 
 const IndexPage = () => {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = "https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js";
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
+  
   return (
     <div>
       <Hero/>
