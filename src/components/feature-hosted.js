@@ -14,23 +14,23 @@ const features = [
   },
   { 
     name: 'Real-time ticketing', 
-    description: 'You can manage phone, email and chat conversations all from a single mailbox.' 
+    description: 'Book travel and get tickets issued instantly through the Voyager API.' 
   },
   { 
     name: 'Accredited travel booking', 
-    description: 'Find what you need with advanced filters, bulk actions, and quick views.' 
+    description: 'Book travel through an IATA accredited agency.' 
   },
   { 
     name: 'All ancilliaries', 
-    description: 'Find what you need with advanced filters, bulk actions, and quick views.' 
+    description: 'Books seats, meals, requirements, make changes and cancelled travel as necessary. ' 
   },
   { 
     name: 'Complex itineries', 
-    description: 'Find what you need with advanced filters, bulk actions, and quick views.' 
+    description: 'Develop complex itineries leveraging multiple routes and airlines.' 
   },
   { 
     name: 'Advanced analytics', 
-    description: 'Find what you need with advanced filters, bulk actions, and quick views.' 
+    description: 'Combine customer analytics with big data, and machine learning to improve customer success.' 
   },
 ]
 

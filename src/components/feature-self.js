@@ -4,14 +4,20 @@ import { CheckIcon } from '@heroicons/react/outline'
 const features = [
   {
     name: 'Powerful APIs',
-    description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+    description: 'Our APIs enable a direct connection to global tavel services with enhanced product offerings.',
   },
-  { name: 'Integrate with your existing platform', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
+  { 
+    name: 'Integrate with your existing platform', 
+    description: 'Integrate with your existing platform using Voyagers powerful APIs.' 
+  },
   {
     name: 'Complex itineries',
-    description: 'You can manage phone, email and chat conversations all from a single mailbox.',
+    description: 'Develop complex itineries leveraging multiple routes and airlines.',
   },
-  { name: 'Sandbox mode', description: 'You can manage phone, email and chat conversations all from a single mailbox.' },
+  { 
+    name: 'Advanced analytics', 
+    description: 'Combine customer analytics with big data, and machine learning to improve customer success.' 
+  },
 ]
 
 const Serve = () => {
