@@ -53,7 +53,7 @@ const Hero = () => {
                       {item.name}
                     </a>
                   ))}
-                  <a href="#" className="font-medium text-blue-700 hover:text-indigo-500">
+                  <a href="#" className="font-medium text-blue-700 hover:text-blue-500">
                     Log in
                   </a>
                 </div>
@@ -104,7 +104,7 @@ const Hero = () => {
                   </div>
                   <a
                     href="#"
-                    className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+                    className="block w-full px-5 py-3 text-center font-medium text-blue-600 bg-gray-50 hover:bg-gray-100"
                   >
                     Log in
                   </a>
