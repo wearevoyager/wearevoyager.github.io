@@ -10,10 +10,10 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build",
+    "build": "gatsby build && cp ./src/CNAME public/",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && cp ./src/CNAME public/ --prefix-paths && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@headlessui/react": "^1.4.0",
