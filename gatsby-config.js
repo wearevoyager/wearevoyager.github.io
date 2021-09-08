@@ -1,9 +1,10 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.wearevoyaager.com",
+    siteUrl: "https://wearevoyager.com",
     title: "We are Voyager",
   },
   plugins: [
+    "gatsby-plugin-cname",
     "gatsby-plugin-postcss",
     "gatsby-plugin-image",
     "gatsby-plugin-react-helmet",

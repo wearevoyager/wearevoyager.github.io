@@ -10,7 +10,7 @@
   "scripts": {
     "develop": "gatsby develop",
     "start": "gatsby develop",
-    "build": "gatsby build && cp ./src/CNAME public/",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "deploy": "gatsby build --prefix-paths && gh-pages -d public"
@@ -22,6 +22,7 @@
     "@mdx-js/react": "^1.6.22",
     "@tailwindcss/typography": "^0.4.1",
     "gatsby": "^3.11.1",
+    "gatsby-plugin-cname": "^1.0.0",
     "gatsby-plugin-image": "^1.12.0",
     "gatsby-plugin-manifest": "^3.12.0",
     "gatsby-plugin-mdx": "^2.12.0",
