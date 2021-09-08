@@ -3,20 +3,11 @@ import Hero from "../components/hero"
 import Hosted from "../components/feature-hosted"
 import Serve from "../components/feature-self"
 import Footer from "../components/footer"
-import { useEffect } from 'react';
+import CookieConsent from "react-cookie-consent";
 
 
 
 const IndexPage = () => {
-  useEffect(() => {
-    const script = document.createElement('script');
-    script.src = "https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js";
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    }
-  }, []);
-  
   return (
     <div>
       <Hero/>
@@ -34,6 +25,13 @@ const IndexPage = () => {
       <Hosted/>
       <Serve/>
       <Footer/>
+      <CookieConsent
+        buttonText="Got it!"
+        style={{ background: "#1E40AF" }}
+        buttonStyle={{ background: "#FFFFFF", color: "#1E40AF"}}
+      >
+        This website uses cookies to ensure you get the best experience. <a href="https://www.cookiesandyou.com/">Learn more</a>
+      </CookieConsent>
     </div>
   )
 }
