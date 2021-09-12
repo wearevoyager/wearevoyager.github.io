@@ -2,7 +2,8 @@ import * as React from "react"
 
 const navigation = {
   main: [
-    { name: 'Home', href: '#' }
+    { name: 'Home', href: '/' },
+    { name: 'Privacy', href: '/privacy' }
   ]
 }
 
