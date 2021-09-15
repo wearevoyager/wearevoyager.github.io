@@ -3,6 +3,7 @@ import * as React from "react"
 const navigation = {
   main: [
     { name: 'Home', href: '/' },
+    { name: 'Contact', href: '/contact' },
     { name: 'Privacy', href: '/privacy' }
   ]
 }
@@ -20,7 +21,7 @@ const Footer = () => {
             </div>
           ))}
         </nav>
-        <p className="mt-8 text-center text-base text-gray-400">&copy; 2021 We are Voyager Limited. All rights reserved.</p>
+        <p className="mt-8 text-center text-base text-gray-400">&copy; 2021 We are Voyager Limited.</p>
       </div>
     </footer>
   )

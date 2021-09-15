@@ -5,7 +5,7 @@ import { MenuIcon, XIcon } from '@heroicons/react/outline'
 import { StaticImage } from "gatsby-plugin-image"
 
 const navigation = [
-  { name: 'Home', href: '#' },
+  { name: 'Home', href: '/' },
 ]
 
 const Hero = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
               <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="#">
+                    <a href="/">
                       <span className="sr-only">We are Voyager</span>
                       <StaticImage className="h-8 w-auto sm:h-10"
                         src="../images/voyager.png"
@@ -125,7 +125,7 @@ const Hero = () => {
               <div className="mt-10 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="/contact"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800 md:py-4 md:text-lg md:px-10"
                   >
                     Contact us

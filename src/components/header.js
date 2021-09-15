@@ -31,7 +31,7 @@ const Header = () => {
               <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="#">
+                    <a href="/">
                       <span className="sr-only">We are Voyager</span>
                       <StaticImage className="h-8 w-auto sm:h-10"
                         src="../images/voyager.png"
