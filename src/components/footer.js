@@ -21,7 +21,7 @@ const Footer = () => {
             </div>
           ))}
         </nav>
-        <p className="mt-8 text-center text-base text-gray-400">&copy; 2021 We are Voyager Limited.</p>
+        <p className="mt-8 text-center text-base text-gray-400">&copy; 2022 We are Voyager Limited.</p>
       </div>
     </footer>
   )
