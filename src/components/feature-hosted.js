@@ -7,7 +7,7 @@ const features = [
     description: 'The Voyager platform enables the full booking experience.',
   },
   { name: 'Powerful APIs', 
-    description: 'Our APIs enable a direct connection to global tavel services with enhanced product offerings.' },
+    description: 'Our APIs enable a direct connection to global travel services with enhanced product offerings.' },
   {
     name: 'Easy-to-use admin panel',
     description: 'Invite, support, and manage your team members.',
